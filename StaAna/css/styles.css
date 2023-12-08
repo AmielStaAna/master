@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Montserrat&display=swap');
+body{
+    background-color: #E5E4E7;
+}
+#main{
+    text-align: center;  
+}
+#title{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    color: black;
+    position: relative;
+    margin-top: 10%;
+}
+#main p{
+    font-family: Montserrat, sans-serif;
+    font-size: large;
+    color: black;
+}
+#footer{
+    margin-top: 10%;
+    font-family: Montserrat, sans-serif;
+    font-size: x-small;
+    text-align: center;
+}
+#image{
+    width: 900px;
+    background-color: white;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img-div{
+    text-align: center;
+}
+#img-caption{
+    font-family: Montserrat, sans-serif;
+    font-size: large;
+    color: black;
+}
+#nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #121212;
+    width: 100%;
+    z-index: 10;
+}
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#nav ul li {
+    margin: 0 20px;
+}
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+}
+  
+#nav ul li a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
